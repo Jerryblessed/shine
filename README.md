@@ -106,8 +106,8 @@ Shine is an educational platform that allows users to post and retrieve content 
 
 1. **Download source code from GitHub** 💾
    ```bash
-   git clone https://github.com/DogukanUrker/flaskBlog.git
-
+   https://github.com/Jerryblessed/shine.git
+   
 ## 📜 License
 
 ```text
