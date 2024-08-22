@@ -1,0 +1,48 @@
+# Import the necessary modules and functions
+from modules import (
+    Log,  # A class for logging messages
+    Blueprint,  # A class for creating Flask blueprints
+    render_template,  # A function for rendering Jinja templates
+)
+
+
+from flask import Flask, render_template, request, redirect, url_for
+import google.generativeai as genai
+
+# Create a blueprint for the search bar route
+AIBlueprint = Blueprint(
+    "ai", __name__
+)  # Pass the name of the blueprint and the current module name as arguments
+
+
+model = genai.GenerativeModel('gemini-pro')
+
+import os
+my_api_key_gemini = "AIzaSyDDEdN89laTbTO8JEHJULde5fPm-h1GRGY"
+
+genai.configure(api_key=my_api_key_gemini)
+
+
+# Define your 404 error handler to redirect to the index page
+@AIBlueprint.errorhandler(404)
+def page_not_found(e):
+    return redirect(url_for('index'))
+
+@AIBlueprint.route('/ai', methods=['POST', 'GET'])
+def index():
+    if request.method == 'POST':
+        try:
+            prompt = request.form['prompt']
+            question = prompt
+
+            response = model.generate_content(question)
+
+            if response.text:
+                return response.text
+            else:
+                return "Sorry, but I think Gemini didn't want to answer that!"
+        except Exception as e:
+            return "Sorry, but Gemini didn't want to answer that!"
+
+    return render_template('ai.html', **locals())
+

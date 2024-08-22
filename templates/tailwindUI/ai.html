@@ -1,0 +1,16 @@
+{% extends 'layout.html.jinja' %}
+
+{% block head %}
+<!-- Set the title of the page to "Search" -->
+<title>{{translations.searchBar.title}}</title>
+{% endblock head %}
+
+{% block body %}
+<div class="w-full h-screen">
+  <!-- Full iframe to the specified URL -->
+  <iframe src="https://gemini-chat-eight-bice.vercel.app/" 
+          class="w-full h-full border-none" 
+          title="Embedded Application">
+  </iframe>
+</div>
+{% endblock body %}
