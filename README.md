@@ -120,7 +120,12 @@ For shine flask app (main app), run the following commands
 -   cd ./light_chat
 -   npm i
 -   npm run dev
-   
+
+## Special Thanks! 🎉
+
+We would like to extend a heartfelt thanks to [DogukanUrker](https://github.com/DogukanUrker) for the incredible work on the [FlaskBlog](https://github.com/DogukanUrker/flaskBlog) project!
+
+
 ## 📜 License
 
 ```text
@@ -147,6 +152,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-# Special Thanks! 🎉
 
-We would like to extend a heartfelt thanks to [DogukanUrker](https://github.com/DogukanUrker) for the incredible work on the [FlaskBlog](https://github.com/DogukanUrker/flaskBlog) project!
