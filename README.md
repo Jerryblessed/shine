@@ -107,6 +107,19 @@ Shine is an educational platform that allows users to post and retrieve content 
 1. **Download source code from GitHub** 💾
    ```bash
    https://github.com/Jerryblessed/shine.git
+
+   
+For shine flask app (main app), run the following commands
+
+-   cd ./shine
+-   pip install requirements.txt
+-   python run app.py
+
+
+ For shine Generative Assistance, run the following commands
+-   cd ./light_chat
+-   npm i
+-   npm run dev
    
 ## 📜 License
 
