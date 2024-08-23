@@ -75,6 +75,7 @@ For the next.js app's requirement, please visit [shine's chat](https://github.co
 - HTML | Jinja
 - CSS
 - JavaScript
+- TypeScript
 
 ## 📚 Technologies
 
@@ -95,8 +96,8 @@ For the next.js app's requirement, please visit [shine's chat](https://github.co
 - TailwindCSS
 - Tabler Icons
 - Summer Note Editor
-- typescript
-- javascript
+- JavaScript
+- TypeScript
 
 ### 🔨 Tools
 
