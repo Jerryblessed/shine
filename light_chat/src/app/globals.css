@@ -1,0 +1,9 @@
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@1&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-800 text-slate-100;
+  font-family: "General Sans", sans-serif;
+}
