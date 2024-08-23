@@ -52,7 +52,7 @@ Shine is an educational platform that allows users to post and retrieve content 
   - User Sign Up
   - User Verification
 
-## 📦 Requirements
+## 📦 Requirements for flask app
 
 - Flask
 - Passlib
@@ -66,6 +66,8 @@ Shine is an educational platform that allows users to post and retrieve content 
 - peewee
 - tidb-vector
 
+## 📦 Requirements for next.js app
+For the next.js app's requirement, please visit [shine's chat](https://github.com/Jerryblessed/shine/blob/main/light_chat/package.json) project requirement page
 
 ## 🧑🏻‍💻 Languages
 
@@ -85,6 +87,7 @@ Shine is an educational platform that allows users to post and retrieve content 
 - Flask_WTF
 - Requests
 - Playwright
+- node.js
 
 ### 🔮 Frontend
 
@@ -92,6 +95,8 @@ Shine is an educational platform that allows users to post and retrieve content 
 - TailwindCSS
 - Tabler Icons
 - Summer Note Editor
+- typescript
+- javascript
 
 ### 🔨 Tools
 
@@ -106,9 +111,7 @@ Shine is an educational platform that allows users to post and retrieve content 
 
 1. **Download source code from GitHub** 💾
    ```bash
-   https://github.com/Jerryblessed/shine.git
-
-   
+   https://github.com/Jerryblessed/shine.git   
 For shine flask app (main app), run the following commands
 
 -   cd ./shine
