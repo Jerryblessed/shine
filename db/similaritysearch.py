@@ -183,8 +183,8 @@ def index():
                     {% endfor %}
                 </ul>
                 <div id="feedback" class="copied"></div>
-                <a href="/">Ask another question</a>
-                <a href="/">Go back home</a>
+                <a href="/similaritySearch">Ask another question</a>
+                <a href="https://jerryblessed.pythonanywhere.com/">Go back home</a>
             </body>
             </html>
         ''', question=question, related_docs_list=related_docs_list)
@@ -304,7 +304,7 @@ def index():
         </form>
 
         <div class="styled-div">
-            <a href="/">
+            <a href="https://jerryblessed.pythonanywhere.com/">
                 <button type="button">Go back home</button>
             </a>
         </div>
