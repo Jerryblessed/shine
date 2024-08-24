@@ -51,9 +51,9 @@ from db.similaritysearch import (
     similaritySearchBlueprint,
 )  # Importing the blueprint for vector search route
 
-from routes.ai import (
-    AIBlueprint,
-)  # Importing the blueprint for vector search route
+# from routes.ai import (
+#     AIBlueprint,
+# )  # Importing the blueprint for vector search route
 
 
 from routes.category import (
@@ -522,9 +522,9 @@ app.register_blueprint(
 # Registering the blueprint for the similarity search route
 
 # Registering the blueprint for the ai bar route
-app.register_blueprint(
-    AIBlueprint
-)
+# app.register_blueprint(
+#     AIBlueprint
+# )
 
 # Registering the blueprint for the ai  route
 
