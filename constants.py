@@ -7,7 +7,7 @@ from modules import secrets, socket
 
 
 # Name of the Flask application
-APP_NAME = "flaskBlog"  # (str)
+APP_NAME = "Shine"  # (str)
 
 # Version of the Flask application
 APP_VERSION = "2.1.0"  # (str)
@@ -109,7 +109,7 @@ SMTP_SERVER = "smtp.gmail.com"  # (str)
 SMTP_PORT = 587  # (int)
 
 # SMTP mail address
-SMTP_MAIL = "flaskblogdogukanurker@gmail.com"  # (str)
+SMTP_MAIL = "lighteducationapp@gmail.com"  # (str)
 
 # SMTP mail password
 SMTP_PASSWORD = "lsooxsmnsfnhnixy"  # (str)
