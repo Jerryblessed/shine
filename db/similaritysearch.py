@@ -304,7 +304,7 @@ def index():
         </form>
 
         <div class="styled-div">
-            <a href="https://www.google.com">
+            <a href="/">
                 <button type="button">Go back home</button>
             </a>
         </div>
